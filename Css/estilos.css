@@ -1,0 +1,219 @@
+/* paginda index*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* degradado*/
+body{
+   background: linear-gradient(
+   black, grey, black);
+}
+
+.img__index{
+    display: inline-block;
+    margin: 5px;
+    padding: 2px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+.menu__nav{
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.links__redes{
+    text-decoration: none;
+    text-align: start;
+    
+}
+
+.texto__index{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.texto__titulo{
+    color: rgb(236, 11, 11);
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Creepster', cursive;
+    
+}
+
+
+
+
+
+.fotosindex__lechuza{
+    width: 200px;
+    height: 200px;
+    
+
+}
+
+
+/* pagina biografia*/
+
+.menu__navbio{
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.links__redesbio{
+    text-decoration: none;
+    text-align: start;   
+}
+
+.titulo__bio{
+    color: rgb(236, 11, 11);
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Creepster', cursive;
+    
+}
+.img__katy{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin: 8px;
+    position: relative;
+    left: 350px;
+     }
+
+    
+    
+ 
+
+    .texto__katy--rojo{
+    text-align: right ;
+    color: blanchedalmond;
+    font-size: 25px;
+    }
+
+/* pagina de galeria*/
+.main__galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img__galeria{
+    width: 300px;
+    height: 350px;
+    margin: 5px;
+    
+    
+}
+
+.img__galeria2:hover{
+    opacity: 50%;
+    color: transparent;
+    
+
+}
+
+
+.nav__galeria{
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 20px;
+}
+/* servicios*/
+
+
+h2{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    
+}
+
+.img__servicio{
+    width: 17%;
+
+    
+    
+}
+
+/*logo*/
+
+.logo{
+    width: 10%;
+    position:absolute;
+    top: 0px;
+    left: 200px;
+}
+
+.subtitulo{
+    color: red;
+    
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.servicio__div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+p{
+    color: red;
+}
+
+.chibi{
+    position: absolute;
+    left: 500px;
+    top: 350px;
+    width: 100%;
+    
+   
+}
+
+.texto__chibi{
+    position: absolute;
+    right: 400px;
+    top: 200px;
+}
+
+.descripcion__chibi{
+    position: absolute;
+    right: 330px;
+    top: 250px;
+}
+
+.texto__formulario{
+    color: red;
+}
+
+
+/*media queries*/
+
+@media only screen and (max-width:768px) and (min-width:576px) {
+    body{
+        background-color: red;
+    }
+    .logoNo{
+        display:none
+    }
+}
+
+
+
+
+
+
+
+
