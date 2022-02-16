@@ -1,0 +1,12 @@
+/* extends*/
+
+%imgIndex{
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    
+
+}
+
+.fotosindex__lechuza{
+    @extend %imgIndex
+}

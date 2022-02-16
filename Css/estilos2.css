@@ -1,0 +1,35 @@
+/*mapas*/
+.texto__index {
+  font-size: 20px;
+  color: whitesmoke; }
+
+/*index*/
+body {
+  background: linear-gradient(black, grey, black); }
+
+.texto__titulo {
+  color: #ec0b0b;
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Creepster', cursive; }
+
+.img__index {
+  display: inline-block;
+  margin: 5px;
+  padding: 2px; }
+  .img__index .fotosindex__lechuza {
+    width: 200px;
+    height: 200px; }
+
+footer div a {
+  text-decoration: none;
+  text-align: start; }
+
+/* extends*/
+.fotosindex__lechuza {
+  border: 1px solid whitesmoke;
+  border-radius: 4px; }
+
+/*mixin*/
+.fotosindex__lechuza:hover {
+  transform: scale(1.2); }

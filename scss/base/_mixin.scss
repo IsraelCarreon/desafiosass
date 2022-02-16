@@ -1,0 +1,10 @@
+/*mixin*/
+
+@mixin animacion{
+    &:hover{
+        transform:scale(1.2)
+    }
+    
+}
+
+.fotosindex__lechuza{@include animacion}

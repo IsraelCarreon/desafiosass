@@ -1,0 +1,16 @@
+
+/*mapas*/
+
+$textoindex: (
+
+    color-texto: whitesmoke,
+    font-index: 20px,
+
+);
+
+.texto__index{
+    font-size: map-get($map: $textoindex, $key:font-index );
+    color:map-get($map: $textoindex, $key:color-texto);
+}
+
+

@@ -33,12 +33,14 @@ nav ul li{
     text-align: start;
     
 }
-
+/*
 .texto__index{
     font-size: 20px;
     color: whitesmoke;
 }
+*/
 
+/*
 .texto__titulo{
     color: rgb(236, 11, 11);
     text-align: center;
@@ -46,6 +48,7 @@ nav ul li{
     font-family: 'Creepster', cursive;
     
 }
+*/
 
 
 
@@ -196,17 +199,26 @@ p{
 
 .texto__formulario{
     color: red;
-}
+} 
 
 
 /*media queries*/
 
-@media only screen and (max-width:768px) and (min-width:576px) {
-    body{
-        background-color: red;
-    }
-    .logoNo{
-        display:none
+@media only screen and (max-width:768px) and (min-width:320px) {
+  body{
+      background-color: red;
+  }
+
+  .logoNo{
+      display:none
+  }
+
+  .servicio__div{
+      display: flex;
+      flex-direction: column;
+  }
+    h1{
+        font-size: 15px;
     }
 }
 
