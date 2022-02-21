@@ -7,4 +7,15 @@
     
 }
 
+@mixin opacidad{
+    &:hover{
+    opacity: 50%;
+    color: transparent;
+    }
+}
+
 .fotosindex__lechuza{@include animacion}
+
+.img__galeria{@include animacion}
+.img__galeria{@include opacidad}
+

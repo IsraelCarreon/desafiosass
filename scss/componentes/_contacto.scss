@@ -1,0 +1,49 @@
+/*contacto*/
+
+.textoFormulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .tituloFormulario{
+        text-align: center;
+        color: whitesmoke;
+        text-transform: uppercase;
+        
+    }
+    .preguntas{
+        color: whitesmoke;
+        font-size: 16px;
+        text-transform: uppercase;
+
+    }
+
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+    
+}
+.imgRedes{
+    width: 30%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-bottom: 30px;
+
+}
+
+.etiqueta{
+    @extend %logoFacebook;
+}
+.etiqueta2{
+    @extend %logoInstagram;
+}
+
+.etiqueta3{
+    @extend %logoTwitter;
+}
+   
+

@@ -13,10 +13,13 @@
 
 
     <!--link css-->
-    <link rel="stylesheet" href="../Css/estilos.css">
+    <link rel="stylesheet" href="../Css/estilos2.css">
+     <!--link animacion-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--etiquetas meta-->
     <meta name="keywords" content="terror,dibujos,fantasmas,retratos,criaturas,monstruos,pesadillas">
-    <meta name="description" content="Ilustradora mexicana especializada en el genero de terror, buscando plasmar escenarios fuera de la realidad humana,criaturas,monstruos y miedos mediante sus obras">
+    <meta name="description"
+        content="Ilustradora mexicana especializada en el genero de terror, buscando plasmar escenarios fuera de la realidad humana,criaturas,monstruos y miedos mediante sus obras">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,10 +27,14 @@
     <title>contacto - Mortifer.um</title>
 </head>
 
-<body class="body1">
-    <header class="header1">
-        <h1 class="texto__titulo">contacto - Mortifer.um</h1>
-        <!--menu de navegacion-->
+<body>
+    <header>
+        <h1 class="texto__titulo texto__titulo animate__animated animate__flipInY ">contacto - Mortifer.um
+            <div>
+                <img class="logo logoNo" src="../img/logoPNG.png" alt="logo">
+            </div>
+        </h1>
+
         <!--menu de navegacion-->
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -66,19 +73,19 @@
     </header>
     <main>
         <form>
-            <fieldset>
-                <legend class="texto__formulario">Formulario</legend>
+            <fieldset class="textoFormulario">
+                <legend class="tituloFormulario">Formulario</legend>
                 <div>
-                    <label class="texto__formulario" for="nombre">completa tu nombre</label>
+                    <label class="preguntas" for="nombre">completa tu nombre</label>
                     <input type="text" name="nombre" placeholder="completa tu nombre">
                 </div>
 
                 <div>
-                    <label class="texto__formulario" for="email">completa tu email </label>
+                    <label class="preguntas" for="email">completa tu email </label>
                     <input type="email" required placeholder="completa tu email">
                 </div>
                 <div>
-                    <label class="texto__formulario" for="pais">selecciona tu pais</label>
+                    <label class="preguntas" for="pais">selecciona tu pais</label>
                     <select name="pais">
                         <option value="Mexico">Mexico</option>
                         <option value="Chile">Chile</option>
@@ -86,7 +93,7 @@
                     </select>
 
                 </div>
-                <div class="texto__formulario">
+                <div class="preguntas">
                     <label for="sexo">Genero</label>
                     <input type="radio" name="sexo" value="hombrer"> hombre
                     <input type="radio" name="sexo" value="mujer">mujer
@@ -104,16 +111,25 @@
             </fieldset>
         </form>
     </main>
-    <footer>
-        <a href="https://www.facebook.com/simplemortifer.um/" target="_blank">facebook</a> <br>
-        <a href="www.instagram.com/mortifer_um " target="_blank">instagram</a> <br>
-        <a href="www.twitter.com/mortifer.um" target="_blank">twitter</a> <br>
+    <footer class="footer">
+        <div class="etiqueta">
+            <a href="https://www.facebook.com/simplemortifer.um/" target="_blank"><img class="imgRedes"
+                    src="../img/facebook_logo.png" alt="logo facebook"></a>
+        </div>
+        <div class="etiqueta2">
+            <a href="www.instagram.com/mortifer_um " target="_blank"><img class="imgRedes"
+                    src="../img/instagram_logo.png" alt="logo instagram"></a>
+        </div>
+        <div class="etiqueta3">
+            <a href="www.twitter.com/mortifer.um" target="_blank"><img class="imgRedes" src="../img/Twitter_logo.png"
+                    alt="logo twitter"></a>
+        </div>
     </footer>
 
-      <!--link js-->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"></script>
+    <!--link js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

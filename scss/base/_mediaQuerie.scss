@@ -1,0 +1,23 @@
+/* Media Querie*/
+
+@media screen and(max-width:480px)  {
+    .video{
+        display: none;
+    }
+    
+    .H1{
+        font-size: 10px;
+    }
+
+    .logoNo{
+        display: none;
+    }
+
+    .logo{
+    width: 10%;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    }
+
+}

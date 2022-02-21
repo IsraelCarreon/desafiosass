@@ -1,0 +1,32 @@
+/*biografia*/
+.titulo__bio{
+    color: rgb(236, 11, 11);
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Creepster', cursive;
+}
+
+.img__katy{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin: 8px;
+   
+    @extend %imgIndex;
+   
+}
+
+.textoKaty{
+    text-align: center ;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+.logoBio{
+    width: 30%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+

@@ -1,7 +1,7 @@
 /* extends*/
 
 %imgIndex{
-    border: 1px solid whitesmoke;
+    border: 4px solid whitesmoke;
     border-radius: 4px;
     
 
@@ -10,3 +10,52 @@
 .fotosindex__lechuza{
     @extend %imgIndex
 }
+
+%servicioImg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+
+}
+
+%logoFacebook{
+    position: absolute;
+    bottom: 1px;
+    left: 570px;
+}
+
+%logosredes{
+    width: 12%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.logosRedes{
+    @extend %logosredes
+}
+
+.facebook{
+    @extend %logoFacebook
+}
+
+%logoInstagram{
+    position: absolute;
+    bottom: 1px;
+}
+
+.instagram{
+    @extend %logoInstagram
+}
+
+%logoTwitter{
+    position: absolute;
+    bottom: 1px;
+    right: 550px;
+}
+
+.twitter{
+    @extend %logoTwitter
+}
+

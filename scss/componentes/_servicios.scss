@@ -1,0 +1,44 @@
+/*servicios*/
+.logo{
+    width: 10%;
+    position:absolute;
+    top: 0px;
+    left: 200px;
+}
+
+
+
+
+h2{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+div h3{
+    margin: 10px;
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+div p{
+    text-align: center;
+    color: whitesmoke;
+    margin: 10px;
+
+
+}
+
+div .img__servicio{
+    width: 17%;
+    @extend %imgIndex;
+       
+}
+
+.contenedor{
+    @extend %servicioImg;
+}
+
