@@ -1,7 +1,8 @@
 /*mapas*/
 .texto__index {
-  font-size: 20px;
-  color: whitesmoke; }
+  font-size: 27px;
+  color: whitesmoke;
+  text-align: center; }
 
 /*index*/
 body {
@@ -43,7 +44,7 @@ footer div a {
 .logosRedes {
   width: 12%;
   background-color: whitesmoke;
-  border-radius: 15px;
+  border-radius: 30px;
   margin-bottom: 30px; }
 
 .instagram, .etiqueta2 {
@@ -71,7 +72,7 @@ footer div a {
   width: 10%;
   position: absolute;
   top: 0px;
-  left: 200px; }
+  right: 200px; }
 
 h2 {
   color: red;
@@ -115,8 +116,8 @@ div .img__servicio {
 .logoBio {
   width: 30%;
   background-color: whitesmoke;
-  border-radius: 15px;
-  margin-bottom: 30px; }
+  border-radius: 35px;
+  margin-bottom: 32px; }
 
 /*Galeria*/
 .main__galeria {
@@ -158,9 +159,4 @@ div .img__servicio {
   .video {
     display: none; }
   .logoNo {
-    display: none; }
-  .logo {
-    width: 10%;
-    position: absolute;
-    top: 0px;
-    left: 90%; } }
+    display: none; } }

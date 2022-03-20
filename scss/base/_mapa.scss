@@ -4,13 +4,15 @@
 $textoindex: (
 
     color-texto: whitesmoke,
-    font-index: 20px,
+    font-index: 27px,
+    
 
 );
 
 .texto__index{
     font-size: map-get($map: $textoindex, $key:font-index );
     color:map-get($map: $textoindex, $key:color-texto);
+    text-align: center;
 }
 
 
